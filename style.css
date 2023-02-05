@@ -1,27 +1,52 @@
 body {
 background-color: rgba(190, 197, 166, 0.5);
-
 }
 
-div {
+.calc-container {
 
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-    
+    align-items: center;
+    margin-top: 150px;
+}
 
+.calculator{
+    height: auto;
+}
+
+@media (max-width: 420px) {
+
+    input[type="text"] {
+        width: 280px;
+        height: 100px;
+        font-size: 55px;
+        font-weight: bold;
+        text-align: right;
+        border: 1;
+        border-radius: 10px;   
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 12px;
+    }
+   
+    .calc-container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+    }   
 }
 
 table {
     background-color:rgba(190, 197, 166, 0.5);
     border-radius: 5px;
-    width: 30%;   
-    height: 400px;
+    width: 300px;   
+    height: 450px;
     padding: 10px;
 }
 
 input[type="text"] {
-    width: 480px;
+    width: 280px;
     height: 100px;
     font-size: 55px;
     font-weight: bold;
@@ -31,7 +56,6 @@ input[type="text"] {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 12px;
 }
-
 
 input[type="button"] {
     width: 100%;
@@ -46,7 +70,6 @@ input[type="button"] {
 
 .calc:hover {
     background-color: rgba(190, 197, 166, 0.5);
-
 }
 
 input[value ="C"], 
@@ -74,25 +97,21 @@ input[value ="="]
 }
 
 .CE {
-    width: 120px;
+    width: 70px;
 }
-
 
 /** To toggle the color of the buttons when clicked **/
 input[type="button"]:active {
     background-color:black;
     }
 
-
 td {
 text-align: center;
 
 }
 
-
 th {
 
 height: 100px;    
-width: 200px;
 
 }
