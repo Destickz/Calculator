@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+  
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+  
+
+<!--The Calculator in table form-->    
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">
+            
+                <input type="text" id="result"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <input class="clear calc" type="button" value="C">  </td>
+                <td class="CE"> <input class="delete calc" type="button" value="CE">  </td>
+                <td> <input class="operator calc" type="button" value="%"> </td>
+                <td> <input class="operator calc" type="button" value="/">  </td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td> <input class="number calc" type="button" value="7">  </td>
+                <td> <input class="number calc" type="button" value="8">  </td>
+                <td> <input class="number calc" type="button" value="9">  </td>
+                <td> <input class="operator calc" type="button" value="*">  </td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td> <input class="number calc" type="button" value="4">  </td>
+                <td> <input class="number calc" type="button" value="5">  </td>
+                <td> <input class="number calc" type="button" value="6">  </td>
+                <td> <input class="operator calc" type="button" value="-">  </td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td> <input class="number calc" type="button" value="1">  </td>
+                <td> <input class="number calc" type="button" value="2">  </td>
+                <td> <input class="number calc" type="button" value="3">  </td>
+                <td> <input class="operator calc" type="button" value="+">  </td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td colspan="2"> <input class="number calc " type="button" value="0">  </td>
+                <td> <input class="number calc " type="button" value=".">  </td>
+                <td> <input class="equal calc" type="button" value="=">  </td>
+            </tr> 
+        </tbody>
+    </table>
+
+
+</div> 
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script> 
+</body>
+</html>
