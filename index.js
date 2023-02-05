@@ -18,10 +18,6 @@ else if (operator !== "") {
 }
 });
 
-$("input").keypress(function(event) {
-
-});
-
 // event that occur when an operator button is clicked 
 $(".operator").click(function () {
     operator = $(this).val();
